@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color:black;
+  /* overflow: hidden; */
+  margin-top: 95px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@media screen and (max-width: 400px) {
+  body{
+    margin-top: 40px;
+   
+  }
+}

@@ -1,0 +1,80 @@
+.container {
+  width: 100%;
+  margin: auto;
+  color: #fff;
+  margin: 5vw 0;
+}
+.heading {
+  margin: 0;
+  font-size: 2rem;
+}
+.left p {
+  font-size: 1.2rem;
+}
+.wrapper {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+.left,
+.right {
+  flex: 1;
+}
+.formWrapper {
+  width: 75%;
+  margin: auto;
+}
+form {
+  color: white;
+}
+.name {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.inputDisplayBlock {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.formWrapper label {
+  font-size: 1.2rem;
+}
+.formWrapper input,
+.inputDisplayBlock textArea {
+  font-size: 1.2rem;
+  padding: 1rem 0.2rem;
+  background: transparent;
+  color: white;
+  border: none;
+  border-bottom: 1px solid #ffffff60;
+  outline: none;
+}
+.formWrapper input:focus,
+.formWrapper input:hover,
+.inputDisplayBlock textArea:focus,
+.inputDisplayBlock textArea:hover {
+  border-bottom: 1px solid #ffffff;
+}
+
+.checkbox input {
+  border: 2px solid #fff;
+  background: transparent;
+  background: red;
+  height: 1rem;
+  width: 1rem;
+  margin-right: 1rem;
+  display: inline-block;
+  border: none;
+}
+button {
+  color: white;
+  border: 50%;
+  border: 1px solid white;
+  background-color: #ffffff30;
+  height: 4rem;
+  padding: 0 2rem;
+  border-radius: 2rem;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
