@@ -1,18 +1,24 @@
 import React from 'react'
-import Card from './Card'
+import images from '../../../images/Image' 
 import "./Section2.css"
 function Section2() {
+  // console.log(images)
   return (
-    <div>
-        <div className="section2_Container">
-            <div className="card_Body">
-                <Card/>
-                <Card/>
-                <Card/>
-                <Card/>
-            </div>
+       <section className="Section2_Container">
+        <div className="Section2_Heading">
+          <h1>Gallery</h1>
         </div>
-    </div>
+          <section className='Gallery_Stories'>
+            <section class="Gallery_section">
+              { images.map((ele,index)=>{
+               return (<div class="Gallery-container" key={index}>
+                  <img src={ele.src}/>
+                </div>  )  
+              })
+}   
+            </section>
+        </section>
+    </section>
   )
 }
 
