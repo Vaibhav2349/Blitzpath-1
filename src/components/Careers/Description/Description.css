@@ -1,0 +1,11 @@
+.job_description{
+    margin: 30px;
+    display: block;
+}
+.job_description_content ul li{
+    padding: 7px;
+    line-height: 1.8rem;
+    letter-spacing: 1.2px;
+    font-size: 20px;
+    color: white;
+}
